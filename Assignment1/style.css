@@ -1,4 +1,36 @@
-.container {
-  margin: 0auto;
-  background-color: rgb(255, 180, 89);
+.ques {
+  margin: 10px 0;
+}
+
+.ques input {
+  display: none;
+}
+
+.ques label {
+  display: flex;
+  font-weight: bold;
+  flex-direction: row;
+  width: 200px;
+  height: 200px;
+  cursor: ;
+  background-color: #ffffff;
+  border-radius: 60px;
+}
+
+.ques .answer {
+  max-height: 0;
+  flex: 1;
+  margin-left: auto;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background-color: #f1f1f1;
+  padding: 0 10px;
+  border-radius: 0 0 6px 6px;
+  text-align: right;
+  width: 800px;
+}
+
+.ques input:checked ~ .answer {
+  max-height: 100px;
+  padding: 10px;
 }
