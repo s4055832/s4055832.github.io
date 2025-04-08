@@ -1,3 +1,10 @@
+let grade = 80;
+if (grade > 75) {
+  console.log("you got it");
+} else {
+  console.log("you just pass");
+}
+
 console.log("hello");
 let myname = "Ly";
 console.log("hello", myname);
