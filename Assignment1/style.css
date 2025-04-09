@@ -1,17 +1,27 @@
-.h1 {
-  font-size: 2.5em;
-  transform: scale(3);
-  display: inline-block;
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 2em;
 }
 
 .container1 {
   display: flex;
   align-items: center;
-  gap: 900px;
+  gap: 1000px;
 }
 
 .ques {
   margin: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: start;
 }
 
 .ques input {
@@ -19,16 +29,20 @@
 }
 
 .ques label {
-  display: flex;
+  grid-column: 2;
   font-weight: bold;
-  flex-direction: row;
-  width: 200px;
   height: 200px;
-  cursor: ;
-  background-color: #ffffff;
   border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.ques .pic {
+  grid-column: 3;
+  height: 200px;
+  width: auto;
+}
 .ques .answer {
   max-height: 0;
   flex: 1;
