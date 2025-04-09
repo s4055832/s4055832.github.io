@@ -1,3 +1,15 @@
+.h1 {
+  font-size: 2.5em;
+  transform: scale(3);
+  display: inline-block;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  gap: 900px;
+}
+
 .ques {
   margin: 10px 0;
 }
@@ -23,7 +35,7 @@
   margin-left: auto;
   overflow: hidden;
   transition: max-height 0.3s ease;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   padding: 0 10px;
   border-radius: 0 0 6px 6px;
   text-align: right;
